@@ -1,0 +1,23 @@
+#ignore your virtual environment
+venv/ 
+
+#ignore Python bytecode cache folders
+__pycache__/ 
+
+#ignore compiled .pyc, .pyo, .pyd files
+*.py[cod] 
+
+#ignore log files
+*.log #
+
+#protect your API key
+.env
+
+#ignore personal VS code settings
+.vscode/
+
+#Windows system file
+Thumbs.db
+
+#macOS system file (in case you want to use a Mac)
+.DS_Store
