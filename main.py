@@ -9,7 +9,7 @@ load_dotenv()
 #Step 2: Create a function to talk to OpenAI
 def ask_openai(prompt):
     response = client.chat.completions.create(
-        model = "gpt-3.5-turbo",
+        model = "gpt-4o",
         messages=[
             {"role":"user","content":prompt}
         ],
